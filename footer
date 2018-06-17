@@ -1,0 +1,405 @@
+ @font-face{
+	   font-family: BauerBodoniEF;
+	   font-style: italic;
+	   letter-spacing: 2px;
+	   src: url(C:\Users\otram\OneDrive\Escritorio\testimonial2\css\BauerBodoniEF Regular_0781419976.exe );
+   }
+   
+
+
+*{
+	
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing:border-box;
+font-family: BauerBodoniEF;
+font-style: italic;
+FONT-SIZE: 30PX;
+line-height: 1.2;
+letter-spacing: 4px;
+
+
+
+
+}
+
+
+
+.info-container{
+	width: 100%;
+	padding:20px;
+	background: white;
+	font-family: Raleway;
+	border-top: solid black 4px;
+	border-bottom:solid black 4px ;
+	border-left:solid black 4px ;
+	border-right:solid black 4px  ;
+	
+}
+
+
+
+
+hr {
+	
+	 border-top: 2px solid #BFC9CA  ; 
+   border-bottom: 2px solid  #BFC9CA ; 
+   border-left:none; 
+   border-right:none; 
+   height: 6px; 
+	
+}
+
+
+
+
+.info-main{
+	
+	width: 98%;
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+	padding: 30px 200px;
+	
+	
+	
+}
+
+.info-main h3{
+ color: #2D2B2A  ;
+	font-size: 40px;
+	text-align:center;
+	
+	
+}
+
+.info-main p{
+	padding: 20px 0;
+	
+	
+	
+}
+
+
+.info-main a{
+	display: inline-block;
+	background:#333;
+	color: white;
+	text-decoration: none;
+	padding:12px 20px; 
+	
+}
+
+.info-main a:hover{
+	background:white;
+	color: grey;
+	border-top: solid 2px;
+	border-bottom:solid 2px;
+	border-right:solid 2px;
+	border-left:solid 2px;
+	
+}
+
+
+
+
+
+
+.Piepage{
+width:100%;	
+font-family: raleway;
+
+	
+}
+
+
+
+
+.footer-container{
+width: 100%;
+background-image:url( https://lh3.googleusercontent.com/5b3zwX3OyfspW1Oty8_modMGd8vbNOlQWqfcVTliUYICh1XxH98NUKdZA6OUZfhpM0WcN8pWwJblkM6jiGlRzdAMvoTDYlONzG-YfYsLZ3L9k80XlW3D_dVlXSva3djhRgIzzehmd7y8ZpJqYNVZ3HHdxZ3FvbCnvFumpmU7SggY1NXNiqWVcYwcIFSdMZkfo2zboeFWxTfhLG_y4SVWqu8G7X-1gXjEnEs9RRJfW_v5Hy8gmOa1bECHGvErn3Xuk79Wp8jhgu5v9IgsITmmb3rzUgGjHYobBqZRhb_DtZ5aWOdS48xJrTnYC75tV1JoSxu1AgNNwRJUItDjY7OT8VCUKiDyvm_OhgMked_Q-v-m1lJOjbTYQ29lZls70d8h_ScDL1enN2TdYvXAejtOghTqeUcDMpRxXje-bTCpNyjiGs248ElqHJWWLrRpmvsD7jp0PERVjc2fnzAHYHu13NfeCIBxpt3MKrPxK5EEwyaRY7QW6kU88iDC1fl9bZifatzK8e-gd7E7nMllN2zpS-X41wL4MlUNCWy9Q8UdnTzsG3hEelUX_L1QhstU4-lfAIalp5ekCTIsYkhqxXZdbAHe2B4ixOBNqrYJVeI=w497-h745-no);
+background-position: center  ;
+background-attachment:fixed;
+color: black;
+}
+
+
+
+.footer-main{
+	width: 98%;
+	max-width: 1000px;
+	margin: auto;
+	padding: 50px 0px;
+	display:flex;
+	flex-wrap: wrap;
+	
+	
+	
+	
+}
+
+
+.footer-main .footer-columna{
+	width: calc( 100%/2);
+	text-align: justify;
+	
+	
+}
+
+
+
+
+
+.footer-main .footer-columna:nth-child(2)
+{
+	padding: 0px 90px;
+	
+	
+	
+	
+}
+
+
+.footer-main .footer-columna h3{
+	font-size: 32px;
+	color: black;
+	margin-bottom:20px;
+}
+
+
+.footer-main .footer-columna a{
+display: inline-block;
+text-decoration: none;
+background:#2E2D2B ;
+color: white ;
+width: 40%;
+text-align: center;
+font-size: 26px;
+letter-spacing: 4px;
+margin: 15px 0px;
+padding: 5px;
+
+	
+}
+
+
+.footer-main .footer-columna a:hover{
+background:white;
+	color: grey;
+	border-top: solid 2px;
+	border-bottom:solid 2px;
+	border-right:solid 2px;
+	border-left:solid 2px;
+	
+	
+}
+
+
+
+
+.footer-main .footer-columna a:active{
+
+background:  #DCBE17   ;
+color:white; 	
+
+	
+}
+
+
+
+.footer-main .footer-columna input[type="email"]{
+	 border: none;
+	 width: 100%;
+	 border: 1px solid  #2E2D2B  ;
+	 font-size: 14px;
+	 padding: 10px;
+	 font-family: raleway;
+	 outline: none;
+	 
+
+	
+
+}
+
+
+
+.footer-main .footer-columna input[type="submit"]{
+	
+border:none;
+background:#2D2B2A  ;
+color: white;
+padding: 10px 40px;
+font-size: 18px;
+margin-top: 10px;
+cursor: pointer;
+font-family: raleway;
+outline: none;
+
+	
+	
+}
+
+
+
+
+.footer-main .footer-columna input:hover[type="submit"]{
+	background:white;
+	color: grey;
+	border-top: solid 2px;
+	border-bottom:solid 2px;
+	border-right:solid 2px;
+	border-left:solid 2px;
+	
+	
+}
+
+
+.footer-pie{
+width: 100%;
+background:#c9c5a5 ;
+border-top: 3px solid white;
+ padding:50px;
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+.main-pie{
+width: 98%;
+max-width: 1000px;
+padding: 15px 0;
+margin: auto;
+display: flex;
+flex-wrap; wrap;
+-ms-align-items: center;
+align-items: center; 
+ justify-content: space-between;
+
+}
+
+
+
+.main-pie .footer-copy  {
+	width: 70%;
+	
+}
+
+
+
+.main-pie .footer-redes {
+	
+	width: 38%;
+	justify-content: space-between;
+	display: flrex;
+	flex-wrap:wrap;
+	
+}
+
+
+.main-pie .footer-redes .fa{
+display: inline-block;
+width: 40px;
+height: 40px;
+line-height: 40px;
+color: black;
+
+ 
+	
+}
+
+
+
+
+.parrafo2{
+font-size: 20px;
+text-align:left;
+position: absolute;
+right:37%;
+
+}
+
+
+.fa-facebook-f{
+display: inline-block;
+width: 40px;
+height: 40px;
+line-height: 40px;
+color: black;
+text-align:center;
+position: absolute;
+right:45%;
+
+	
+}
+
+
+.fa-twitter{
+	
+display: inline-block;
+width: 40px;
+height: 40px;
+line-height: 40px;
+color: black;
+text-align:center;
+position: absolute;
+right: 49%;
+	
+}
+
+
+.fa-instagram{
+	
+display: inline-block;
+width: 40px;
+height: 40px;
+line-height: 40px;
+color: black;
+text-align:center;
+position: absolute;
+right: 54%;
+	
+}
+
+
+.fa-pinterest-p{
+	
+
+display: inline-block;
+width: 40px;
+height: 40px;
+line-height: 40px;
+color: black;
+text-align: center;
+position: absolute;
+right: 59%;
+
+	
+	
+}
+
+
+
+
+
+.footer-redes a:hover
+{
+
+font-size: 40px;
+	
+	
+}
+
+
+
+
+
+
